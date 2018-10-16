@@ -1,5 +1,6 @@
 echo off
 
+REM [Criado e Mantido por Lucas Bulegon Mello - lucasbmello96@gmail.com]
 REM [Script usado para excluir arquivos de papel de parede em sistemas Windows.]
 REM [Geralmente usado em redes com domínio e aplicação de GPO para alteração do Wallpaper.]
 
