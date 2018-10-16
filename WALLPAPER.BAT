@@ -1,4 +1,8 @@
 echo off
+
+REM [Script usado para excluir arquivos de papel de parede em sistemas Windows.]
+REM [Geralmente usado em redes com domínio e aplicação de GPO para alteração do Wallpaper.]
+
 del %userprofile%\AppData\Roaming\Microsoft\Windows\Themes\TranscodedWallpaper
 del %userprofile%\AppData\Roaming\Microsoft\Windows\Themes\CachedFiles\*.jpg
 echo on
