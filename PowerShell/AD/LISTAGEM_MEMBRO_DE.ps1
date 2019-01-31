@@ -5,7 +5,7 @@
 ##################################################################################################
 
 $usuarioLogado = $env:USERNAME
-$usuarioListado = 'LBMELLO'
+$usuarioListado = 'USER'
 
 $MemberOf = Get-ADPrincipalGroupMembership $usuarioListado | select name
 
